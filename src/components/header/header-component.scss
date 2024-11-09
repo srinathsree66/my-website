@@ -1,0 +1,51 @@
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid transparent;
+  ul {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 3rem;
+
+    li {
+      list-style: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    li a {
+      text-decoration: none;
+      // text-transform: uppercase;
+      // color: black;
+    }
+  }
+}
+
+.header-img {
+  // background-image: url("../../../public/Webcam\ Circle\ shadow.png");
+  height: 100%;
+}
+
+.mentorship {
+  &:hover {
+    color: #6e07f3;
+  }
+}
+
+.say-hello {
+  color: #6e07f3;
+  border-color: #6e07f3;
+  border: 2px solid #6e07f3;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  animation: alternate 1.5s linear;
+
+  &:hover {
+    color: white;
+    background-color: #6e07f3;
+  }
+}

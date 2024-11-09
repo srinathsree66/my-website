@@ -1,0 +1,48 @@
+<section class="hero-section">
+  <h1 class="hero-title">🧑‍💻 Frontend Developer & Mentor 😉</h1>
+  <h2>I love what I do.</h2>
+
+  <div class="img-container">
+    <p>
+      <img src="mf-avatar.svg" alt="" />
+    </p>
+    <p class="hero-device">
+      <img src="hero-devices.svg" alt="" />
+    </p>
+  </div>
+  <div class="intro">
+    <h1>Hi, I'm Srinath. Nice to meet you.</h1>
+  </div>
+  <h2>Skills</h2>
+  <div
+    id="main-div"
+    style="
+      width: 600px;
+      height: 400px;
+      border: 2px dashed #ccc;
+      position: relative;
+    "
+  >
+    @for (skill of skills; track $index) {
+
+    <div
+      class="skill-item"
+      [ngStyle]="{
+        top: skill.top + 'px',
+        left: skill.left + 'px',
+        position: 'absolute'
+      }"
+    >
+      <img [src]="skill.img" alt="{{ skill.name }}" />
+      <p>{{ skill.name }}</p>
+    </div>
+
+    }
+  </div>
+
+  <div class="cta">
+    <a href="mailto:sreecodes@gmail.com" target="_blank">
+      <button class="btn">Contact Me</button>
+    </a>
+  </div>
+</section>

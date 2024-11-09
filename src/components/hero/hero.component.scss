@@ -1,0 +1,62 @@
+.hero-section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #141c3a;
+    font-family: "eurostile", sans-serif;
+  }
+
+  h2 {
+    color: #0a0a0ae6;
+    font-family: "europa", sans-serif;
+    font-weight: 400;
+  }
+
+  .hero-device {
+    // max-width: 860px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // overflow: hidden;
+    margin-top: 5rem;
+    img {
+      width: 860px;
+      height: 340px;
+    }
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.intro {
+  background-color: #6e07f3;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 9rem 4.5rem;
+  text-align: center !important;
+  flex-direction: column;
+}
+
+.skill-item {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  // border: 1px solid #ccc;
+  // background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
