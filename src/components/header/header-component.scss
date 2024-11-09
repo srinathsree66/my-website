@@ -43,9 +43,20 @@
   padding: 0.5rem 1rem;
   font-size: 18px;
   animation: alternate 1.5s linear;
+  text-decoration: dotted !important;
 
   &:hover {
     color: white;
     background-color: #6e07f3;
   }
+}
+
+@media screen and (max-width:600px) {
+  .say-hello{
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    // text-align: center
+  }
+  
 }

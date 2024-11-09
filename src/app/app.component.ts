@@ -13,20 +13,5 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  value = 20;
-  title = 'sreecodes-portfolio';
-
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
-
-  ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      // Access navigator here
-      console.log('hi');
-
-      navigator.geolocation.getCurrentPosition((position) => {
-        console.log('Latitude: ', position.coords.latitude);
-        console.log('Longitude: ', position.coords.longitude);
-      });
-    }
-  }
+  
 }
