@@ -1,4 +1,6 @@
 .hero-section {
+  color: #cfcbc5;
+  
   display: flex;
   justify-content: end;
   align-items: center;
@@ -7,12 +9,12 @@
   .hero-title {
     font-size: 3rem;
     font-weight: 800;
-    color: #141c3a;
+    color: #cfcbc5;
     font-family: "eurostile", sans-serif;
   }
 
   h2 {
-    color: #0a0a0ae6;
+    // color: #0a0a0ae6;
     font-family: "europa", sans-serif;
     font-weight: 400;
   }
