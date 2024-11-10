@@ -31,6 +31,11 @@
   }
 }
 
+.my-image{
+  border-radius: 50%;
+  
+}
+
 .img-container {
   display: flex;
   justify-content: center;
@@ -62,9 +67,23 @@
 }
 
 .skill{
+  // width: 1rem;
+  text-align: center;
   &:hover{
     text-shadow: #6e07f3;
   }
+}
+
+.skill-container{
+  // padding: 6rem;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
 }
 
 

@@ -1,0 +1,22 @@
+.about-me{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin:8rem 8rem;
+}
+.about-content{
+    padding: 2rem 3rem;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 16px;
+}
+
+.description{
+    padding: 2rem;
+    text-align: center;
+}

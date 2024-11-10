@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
 export default class AboutComponent {
   title: string = 'About Sreecodes';
   description: string =
-    'I am a software engineer with a passion for building scalable and maintainable applications. I specialize in JavaScript, TypeScript, and Angular. I am currently working remotely as a freelance developer.';
+    'I am a software engineer with a passion for building scalable and maintainable applications. I specialize in JavaScript, TypeScript, and Angular. I am currently working on Torry Harris Business Solutions, as a Software developer.';
 }

@@ -7,7 +7,7 @@
   border-bottom: 1px solid transparent;
   ul {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1rem 3rem;
 
     li {
@@ -18,7 +18,8 @@
 
     li a {
       text-decoration: none;
-      // text-transform: uppercase;
+      
+      text-transform: uppercase;
       // color: black;
     }
   }
@@ -35,6 +36,8 @@
   }
 }
 
+
+
 .say-hello {
   color: #6e07f3;
   border-color: #6e07f3;
@@ -43,7 +46,6 @@
   padding: 0.5rem 1rem;
   font-size: 18px;
   animation: alternate 1.5s linear;
-  text-decoration: dotted !important;
 
   &:hover {
     color: white;
