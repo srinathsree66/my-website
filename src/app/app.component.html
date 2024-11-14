@@ -1,6 +1,11 @@
 <sc-header />
 
-<sc-hero />
-<router-outlet />
-<sc-contact/>
+@if(isNotBlogRoute){
+
+    <main-route/>
+}
+@else{
+    <!-- <sc-blog/> -->
+}
+<router-outlet/>
 <sc-footer />
