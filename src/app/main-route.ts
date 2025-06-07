@@ -10,14 +10,13 @@ import { HeroComponent } from "../components/hero/hero.component";
 
 
 @Component({
-    selector:'main-route',
-    standalone:true,template:`
+    selector: 'main-route',
+    template: `
 
 <sc-hero />
 <sc-contact/>
     `,
-  imports: [RouterOutlet,  HeroComponent,ContactComponent],
-
+    imports: [RouterOutlet, HeroComponent, ContactComponent]
 })
 
 export class MainRoute{

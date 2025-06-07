@@ -10,11 +10,10 @@ interface Skill {
 }
 
 @Component({
-  selector: 'sc-hero',
-  standalone: true,
-  imports: [NgStyle,AboutComponent],
-  templateUrl: './hero.component.html',
-  styleUrl: './hero.component.scss',
+    selector: 'sc-hero',
+    imports: [NgStyle, AboutComponent],
+    templateUrl: './hero.component.html',
+    styleUrl: './hero.component.scss'
 })
 export class HeroComponent {
   skills: Array<Skill> = [
