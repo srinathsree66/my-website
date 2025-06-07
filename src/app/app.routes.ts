@@ -8,7 +8,8 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path:'blog',
-    component:BlogComponent
-  }
+    path: 'blog',
+    loadComponent: () =>
+      import('../components/blog/blog.component').then((c) => c.BlogComponent),
+  },
 ];
